@@ -1,5 +1,5 @@
 
-##A-PROPOS
+## A-PROPOS
 Linsa est un programme qui permet de se connecter automatiquement sur une hôte 
 samba sans avoir à retaper ni nom utilisateur ni mots de passe ni addresse de l'hôte.
 Le programme cherche elle même les hôtes présente dans la table ARP du client et 
@@ -8,7 +8,7 @@ les identifiants correspondantes.
 
 Elle possède un option de synchronisation de source et destination différente
 
-##CONFIGURATION
+## CONFIGURATION
 
 ```bash 
 nano .env
@@ -17,7 +17,7 @@ username=<samba-username>
 password=<samba-password>
 
 ```
-##COMMAND
+## COMMAND
 
 ```bash
 ./linsa.sh <dossier-share-samba> <dossier-client-source>
