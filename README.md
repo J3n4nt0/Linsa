@@ -6,8 +6,6 @@ Le programme cherche elle même les hôtes présente dans la table ARP du client
 éffectue une teste de connexion sur chaque hôte jusqu'à trouver celui avec les 
 les identifiants correspondantes.
 
-Elle possède un option de synchronisation de source et destination différente
-
 ## CONFIGURATION
 
 ```bash 
