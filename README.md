@@ -19,6 +19,7 @@ password=<samba-password>
 
 ```bash
 chmod + x linsa.sh
+
 ./linsa.sh <dossier-share-samba> <dossier-client-source>
 
 ```
