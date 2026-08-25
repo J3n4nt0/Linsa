@@ -11,6 +11,8 @@ Elle possède un option de synchronisation de source et destination différente
 ##CONFIGURATION
 
 ```bash 
+nano .env
+
 username=<samba-username>
 password=<samba-password>
 
@@ -23,9 +25,6 @@ password=<samba-password>
 ```
 ## Prérequis
 
-Avant d'utiliser Linsa, assurez-vous que les outils suivants sont installés :
-
-- **Bash**
 - **smbclient** — pour communiquer avec les partages Samba
 - **iproute2** — pour récupérer les informations réseau et la table ARP/voisins
 

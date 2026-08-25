@@ -1,7 +1,8 @@
 #!/usr/bin/bash
+source .env
 
-username="user"
-password="*************"
+username="$username"
+password="$password"
 share=$1
 source_local_dir=$2
 default_dir="/home/$(whoami)"
