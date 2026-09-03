@@ -32,16 +32,16 @@ password=<samba-password>
 
 ```bash
 sudo apt update
-sudo apt install bash smbclient iproute2 
+sudo apt install smbclient iproute2 
 ```
 
 #### Fedora
 
 ```bash
-sudo dnf install bash samba-client iproute 
+sudo dnf install samba-client iproute 
 ```
 #### Arch-linux
 
 ```bash
-sudo pacman -S bash smbclient iproute 
+sudo pacman -S smbclient iproute 
 ```
