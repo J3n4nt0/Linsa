@@ -9,6 +9,7 @@ les identifiants correspondantes.
 ## CONFIGURATION
 
 ```bash 
+
 nano .env
 
 username=<samba-username>
